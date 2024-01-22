@@ -1,0 +1,1 @@
+This repository contains the various tasks related to web technologies like creating frames,login page,registration form and time table,analog clock,game and registration form validation using HTML,CSS and JavaScript
