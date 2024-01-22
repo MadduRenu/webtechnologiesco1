@@ -1,0 +1,241 @@
+<html>
+    <head>  <style>
+        .d1{
+           
+            height: 30%;
+            background-color: pink;
+        }
+        .i{
+            overflow: hidden;
+            width:2000px;
+            height:50px;
+            margin-left: 5%;
+        }
+        .t1{
+    color:blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1%;
+    border: 1px solid rgb(155, 15, 38);
+    border-style: solid;
+    border-radius: 5px;
+}
+.t2{
+    color:blueviolet;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 1%;
+    border: 1px solid rgb(155, 15, 38);
+    border-style: solid;
+    border-radius: 5px;
+    margin-right: 50px;
+    width: 40%;
+
+}
+.t3{
+    color: darkgreen;
+    font-weight: bold;
+}
+.left{
+    float: left;
+    background-color: pink;
+    background-size: 100%;
+    height: 70%;
+    width: 20%;
+}
+ 
+.image{
+        position: relative;
+        opacity: 1.0;
+
+    }
+.right{
+    float: right;
+    background-color: lightblue;
+    overflow-x: hidden;
+}
+.blink {
+               animation: blinker 1.0s linear infinite;
+               color:darkblue;
+               font-family: 'Times New Roman';
+           }
+           @keyframes blinker {
+               50% {
+                   opacity: 0;
+               }
+           }
+    .b1:hover{
+        border-radius: 1px solid tomato;
+        background-color: green;
+        width: 90px;
+        height: 40px;
+      
+        font-size: 15px;
+    }
+    .b2:hover{
+        border-radius: 1px solid tomato;
+        background-color: green;
+        width: 90px;
+        height: 40px;
+        font-size: 15px;
+    }
+    
+    </style></head>
+    <body style="overflow: hidden;">
+        
+      
+        <div class="d1" id="div1">
+   
+             <table class="i">
+                <tr>
+                    <td ><img src="anitsbanner2.jpeg"> </td>
+                </tr>
+            </table>
+          
+         
+           <a href="login.html" target="right" style="margin-left: 10%;text-decoration: none;font-size: 20px;" class="blink" id="a">LOGIN</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="registration.html" target="right"  style="text-decoration: none;font-size: 20px;" class="blink" id="a1">REGISTRATION</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+           <a href="resume.html" target="right" style="text-decoration: none;font-size: 20px;" class="blink" id="a2">PROFILE</a>
+    
+
+
+
+        </div>
+        <div class="left" id="div2">
+            <p class="t2"><a href="universities.html" id="uni" style="text-decoration: none;" > Universities</a></p>
+    
+<p class="t2" id="dep">Departments</p>
+<ol>
+    <ul type="disc" >
+    
+        <a href="cse.html" target="right"  > <li class="t3" id="c">CSE</li> </a>
+        <a href="ece.html" target="right" ><li class="t3" id="e">ECE</li></a>
+        <a href="mech.html" target="right"><li class="t3" id="m">MECH</li></a>
+        <a href="eee.html" target="right"><li class="t3" id="eee">EEE</li></a>
+        <a href="Placements.html" target="right"><li class="t3" id="place">PLACEMENTS</li></a>
+        <a href="hostel.html" target="right"><li class="t3" id="hos">HOSTEL FEE</li></a>
+    </ul>
+    
+</ol>
+
+       
+<a href="timetable.html" class="t1" id="time">Timetable</a><br><br>
+<a href="resume.html"  class="t1" id="res">Resume</a>
+
+ <br> <br> <br>
+
+
+<button id="but" onclick="f1()" class="b1">Theme 1</button> <br> <br> <br>
+
+<button id="but1" onclick="f2()" class="b2">Theme 2</button>
+        </div>
+
+
+<div class="right" id="div3">
+   
+   
+   
+        <div class="image">
+            <img src="https://i.ytimg.com/vi/eS36IpEMTak/maxresdefault.jpg" width="1200px" height="490px" id="im"> 
+        </div>
+</div>
+    
+<script>
+/*
+  // document.getElementById('right').style.backgroundImage="none";
+  document.getElementById('time').addEventListener('click', function(event) {
+  event.preventDefault(); // Prevent the default behavior of the anchor tag
+
+  // Fetch the content from csedetails.html
+  fetch('timetable.html')
+      .then(response => {
+      // Check if the response is valid
+      if (!response.ok) {
+          throw new Error('Network response was not ok');
+      }
+      return response.text();
+      })
+      .then(data => {
+      document.getElementById('div3').innerHTML = data;
+      })
+      .catch(error => {
+      // Handle any errors that occurred during the fetch
+      console.error('Error loading content:', error);
+      });
+  });
+*/
+    function f1(){
+        document.getElementById("div1").style.backgroundColor="lightgreen";
+        document.getElementById("div2").style.backgroundColor="99C68E";
+        document.getElementById("a").style.color="tomato";
+        document.getElementById("a1").style.color="tomato";
+        document.getElementById("a2").style.color="tomato";
+        document.getElementById("div2").style.Color="brown";
+        document.getElementById("uni").style.Color="brown";
+
+        document.getElementById("dep").style.color="brown";  
+        
+        document.getElementById("c").style.color="brown";  
+       
+        document.getElementById("e").style.color="brown";  
+        document.getElementById("eee").style.color="brown";
+        document.getElementById("res").style.color="brown";
+        document.getElementById("time").style.color="brown";
+        document.getElementById("place").style.color="brown";
+        document.getElementById("hos").style.color="brown"; 
+        document.getElementById("m").style.color="brown";  
+        document.getElementById("but").style.color="brown";  
+        document.getElementById("but").style.backgroundColor="lightpink";
+        document.getElementById("but1").style.color="brown";  
+        document.getElementById("but1").style.backgroundColor="lightpink";
+
+         document.getElementById("im").src = "right2.jpeg";
+         document.getElementById("im").style.borderRadius="100px";
+
+        // document.getElementById("img").style.borderRadius= "100px";
+      
+      
+
+
+    }
+    function f2(){
+        document.getElementById("div1").style.backgroundColor="#0077B6";
+        document.getElementById("div2").style.backgroundColor="#1E90FF";
+        document.getElementById("a").style.color="black";
+        document.getElementById("a1").style.color="black";
+        document.getElementById("a2").style.color="black";
+        document.getElementById("div2").style.Color="brown";
+        document.getElementById("uni").style.Color="black";
+
+        document.getElementById("dep").style.color="black";  
+        
+        document.getElementById("c").style.color="brown";  
+       
+        document.getElementById("e").style.color="brown";  
+        document.getElementById("eee").style.color="brown";
+        document.getElementById("res").style.color="black";
+        document.getElementById("time").style.color="black";
+        document.getElementById("place").style.color="brown";
+        document.getElementById("hos").style.color="brown"; 
+        document.getElementById("m").style.color="brown";  
+        document.getElementById("but").style.color="white";  
+        document.getElementById("but").style.backgroundColor="brown";
+        document.getElementById("but1").style.color="white";  
+        document.getElementById("but1").style.backgroundColor="brown";
+        
+
+    }
+</script>
+
+
+
+
+
+
+</body>
+
+</html>
